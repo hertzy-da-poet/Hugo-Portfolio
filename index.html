@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Portfolio Website | Written by Hugo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- box icons -->
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo" data-aos="zoom-out" data-aos-duration="1500">Hugo<span> Phan</span></a>
+        <nav>
+            <div class="nav-container">
+                <div class="link">
+                <a href="#home" class="active" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" >Home</a>
+                <a href="#skills" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">Skills</a>
+                <a href="#projects" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Projects</a>
+                <a href="#contact" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">Contact</a>
+                </div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="toggleMenu()"></i>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="#home" onclick="closeMenu()">Home</a>
+                    <a href="#skills" onclick="closeMenu()">Skills</a>
+                    <a href="#projects" onclick="closeMenu()">Projects</a>
+                    <a href="#contact" onclick="closeMenu()">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <section class="home" id="home">
+            <div class="home-img">
+                <img src="main.jpeg" alt="" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">
+            </div>
+            <div class="home-content">
+                <h1 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">Hi, It's <span>Huy.</span></h1>
+                <h3 class="typewriter" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="600">I'm a <span class="typewriter-text"></span><label for="">|</label></h3>
+                <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">I am a third-year Computer Science student at Toronto Metropolitan University, passionate about AI and full-stack development. I enjoy turning ideas into real-world software products and continuously improving my skills in building innovative, user-centered applications.</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/hertzy-da-poet" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/hertzy-da-poet?tab=repositories" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/_h3rtzy/" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="#" class="btn" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">Hire me</a>
+            </div>
+        </section>
+            <!-- profile page -->
+                <!--Skills-->
+                <section class="skills" id="skills">
+
+    <h2 class="section-title">Technical <span>Skills</span></h2>
+    <div class="skills-legend">
+
+    <div class="legend-item">
+        <div class="legend-bar high"></div>
+        <span>100% = Highly efficient </span>
+    </div>
+
+    <div class="legend-item">
+        <div class="legend-bar medium"></div>
+        <span>50% = Intermediate level</span>
+    </div>
+
+    <div class="legend-item">
+        <div class="legend-bar low"></div>
+        <span>0% = Beginner level </span>
+    </div>
+
+</div>
+                    <div class="skills-container">
+    <div class="skills-box">
+
+    <h3>Languages</h3>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>Java</span>
+            <span>90%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress java"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>Python</span>
+            <span>95%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress python"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>JavaScript</span>
+            <span>92%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress javascript"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>TypeScript</span>
+            <span>65%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress typescript"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>C</span>
+            <span>91%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress c"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>HTML</span>
+            <span>95%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress html"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>CSS</span>
+            <span>92%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress css"></div>
+        </div>
+    </div>
+
+</div>
+
+<div class="skills-box">
+
+    <h3>Frontend</h3>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>React</span>
+            <span>70%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress react"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>Tailwind CSS</span>
+            <span>60%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress tailwind"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>AOS</span>
+            <span>85%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress aos"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>Responsive Design</span>
+            <span>90%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress responsive"></div>
+        </div>
+    </div>
+
+</div>
+
+<div class="skills-box">
+
+    <h3>Backend & Database</h3>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>Node.js</span>
+            <span>78%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress node"></div>
+        </div>
+    </div>
+
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>Supabase</span>
+            <span>60%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress supabase"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>rust</span>
+            <span>90%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress rust"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>SQL</span>
+            <span>80%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress sql"></div>
+        </div>
+    </div>
+
+</div>
+
+<div class="skills-box">
+
+    <h3>Tools & Concepts</h3>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>Git</span>
+            <span>88%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress git"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>GitHub</span>
+            <span>90%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress github"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>REST APIs</span>
+            <span>82%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress api"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>OOP</span>
+            <span>90%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress oop"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>Full-Stack Development</span>
+            <span>84%</span>
+        </div>
+
+        <div class="skill-bar">
+            <div class="skill-progress fullstack"></div>
+        </div>
+    </div>
+    </div>
+</div>
+
+</section>
+                <!--Education-->
+                <!--Projects-->
+                <section class="projects" id="projects">
+
+    <h2 class="section-title">Feature <span>Projects</span></h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+
+            <div class="project-image">
+                <img src="main.jpeg" alt="">
+            </div>
+
+            <div class="project-content">
+
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                    A modern and responsive portfolio website designed and developed 
+                    to showcase my projects, skills, and passion for full-stack 
+                    development. Built with smooth animations, cinematic UI styling, 
+                    and interactive user experiences.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>AOS</span>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="#home" class="btn">Live Demo</a>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="project-card">
+
+    <div class="project-image">
+        <img src="mycip.jpeg" alt="">
+    </div>
+
+    <div class="project-content">
+
+        <h3>MyCIP.ca</h3>
+
+            <p>
+    Full stack Dev designed to help international students 
+    access immigration resources through secure authentication and 
+    responsive user experience.
+</p>
+
+        <div class="project-tech">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Supabase</span>
+            <span>Tailwind CSS</span>
+            <span>HTML</span>
+            <span>JavaScript</span>
+        </div>
+
+        <div class="project-buttons">
+            <a href="https://mycip.ca" class="btn"  target="_blank">View Website</a>
+        </div>
+
+    </div>
+
+</div>
+    </div>
+
+</section>
+                <!--Experience-->
+<!--Contact-->
+        <section class="contact" id="contact">
+            <section class="contact" id="contact">
+
+    <h2 class="section-title">Let's get in <span>Touch</span></h2>
+                <div class="contact-description">
+
+    <p class="contact-quote">
+        “Great things are built when passionate people create together.”
+    </p>
+
+    <p class="contact-subtext">
+        Have a project in mind, an opportunity to discuss, or looking to collaborate? 
+        Let’s connect and build something meaningful.
+    </p>
+
+</div>
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            
+            <h2 class="contact-info-title">Contact Info</h2>
+            <div class="contact-details">
+
+    <div class="contact-card">
+        <i class="fa-solid fa-envelope"></i>
+
+        <div>
+            <h3>Email</h3>
+            <p>giabophannguyen@gmail.com</p>
+        </div>
+    </div>
+
+    <div class="contact-card">
+        <i class="fa-solid fa-phone"></i>
+
+        <div>
+            <h3>Phone</h3>
+            <p>+1 (647) 761 - 3808</p>
+        </div>
+    </div>
+
+    <div class="contact-card">
+        <i class="fa-solid fa-location-dot"></i>
+
+        <div>
+            <h3>Location</h3>
+            <p>Toronto, Ontario, Canada</p>
+        </div>
+    </div>
+
+</div>
+        </div>
+
+        <form class="contact-form"
+              action="https://formsubmit.co/giabophannguyen@gmail.com"
+              method="POST">
+
+            <input type="text"
+                   name="name"
+                   placeholder="Your Name"
+                   required>
+
+            <input type="email"
+                   name="email"
+                   placeholder="Your Email"
+                   required>
+
+            <textarea name="message"
+                      rows="8"
+                      placeholder="Your Message"
+                      required></textarea>
+
+            <button type="submit" class="btn">
+                Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+            
+        </section>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({offset:0});
+    </script>
+    <script>
+    window.history.scrollRestoration = "manual";
+
+    window.onload = () => {
+      window.scrollTo(0, 0);
+    };
+  </script>
+</body>
+<script>
+
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll("nav a");
+
+window.addEventListener("scroll", () => {
+
+  let current = "";
+
+  sections.forEach(section => {
+
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+
+    if(window.scrollY >= sectionTop - 200){
+      current = section.getAttribute("id");
+    }
+
+  });
+
+  navLinks.forEach(link => {
+
+    link.classList.remove("active");
+
+    if(link.getAttribute("href") === `#${current}`){
+      link.classList.add("active");
+    }
+
+  });
+
+});
+
+</script>
+</html>
+
