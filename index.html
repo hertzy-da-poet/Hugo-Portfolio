@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Huy Phan is a Computer Science student focused on full-stack development, AI-powered tools, and practical web applications.">
+    <meta property="og:title" content="Huy Phan | Full-Stack Developer Portfolio">
+    <meta property="og:description" content="Explore Huy Phan's full-stack, AI, and web development projects.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="portfolio-preview.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Portfolio Website | Huy Phan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- box icons -->
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo" data-aos="zoom-out" data-aos-duration="1500">Huy<span> Phan</span></a>
+        <nav>
+            <div class="nav-container">
+                <div class="link">
+                <a href="#home" class="active" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" >Home</a>
+                <a href="#skills" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">Skills</a>
+                <a href="#projects" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Projects</a>
+                <a href="#contact" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">Contact</a>
+                </div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="toggleMenu()"></i>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="#home" onclick="closeMenu()">Home</a>
+                    <a href="#skills" onclick="closeMenu()">Skills</a>
+                    <a href="#projects" onclick="closeMenu()">Projects</a>
+                    <a href="#contact" onclick="closeMenu()">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <section class="home" id="home">
+            <div class="home-img">
+                <img src="main.jpeg" alt="" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">
+            </div>
+            <div class="home-content">
+                <h1 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">Hi, It's <span>Huy.</span></h1>
+                <h3 class="typewriter" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="600">I'm a <span class="typewriter-text"></span><label for="">|</label></h3>
+                <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">I am a third-year Computer Science student at Toronto Metropolitan University, passionate about AI and full-stack development. I enjoy turning ideas into real-world software products and continuously improving my skills in building innovative, user-centered applications.</p>
+                <div class="availability" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="750">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <div>
+                        <span>Seeking internship & co-op opportunities</span>
+                        <p>Building full-stack products, AI-powered tools, and user-focused web apps.</p>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/hertzy-da-poet" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/hertzy-da-poet?tab=repositories" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/_h3rtzy/" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="#contact" class="btn" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">Let's Connect</a>
+            </div>
+        </section>
+            <!-- profile page -->
+                <!--Skills-->
+                <section class="skills" id="skills">
+
+    <h2 class="section-title">Technical <span>Skills</span></h2>
+
+    <div class="skills-container">
+        <div class="skills-box">
+            <h3>Languages</h3>
+            <div class="skill-tags">
+                <span>Java</span>
+                <span>Python</span>
+                <span>JavaScript</span>
+                <span>TypeScript</span>
+                <span>C</span>
+                <span>Rust</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>SQL</span>
+            </div>
+        </div>
+
+        <div class="skills-box">
+            <h3>Frontend</h3>
+            <div class="skill-tags">
+                <span>React</span>
+                <span>Tailwind CSS</span>
+                <span>Vite</span>
+                <span>AOS</span>
+                <span>Responsive Design</span>
+            </div>
+        </div>
+
+        <div class="skills-box">
+            <h3>Backend & Database</h3>
+            <div class="skill-tags">
+                <span>Node.js</span>
+                <span>Supabase</span>
+                <span>REST APIs</span>
+                <span>Authentication</span>
+                <span>Database Design</span>
+            </div>
+        </div>
+
+        <div class="skills-box">
+            <h3>Tools & Concepts</h3>
+            <div class="skill-tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>OOP</span>
+                <span>Full-Stack Development</span>
+                <span>AI Integration</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+                <!--Education-->
+                <!--Projects-->
+                <section class="projects" id="projects">
+
+    <h2 class="section-title">Featured <span>Projects</span></h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+
+            <div class="project-image">
+                <img src="portfolio-preview.png" alt="Portfolio website homepage screenshot">
+            </div>
+
+            <div class="project-content">
+
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                    A modern and responsive portfolio website designed and developed 
+                    to showcase my projects, skills, and passion for full-stack 
+                    development. Built with smooth animations, cinematic UI styling, 
+                    and interactive user experiences.
+                </p>
+
+                <ul class="project-highlights">
+                    <li>Built responsive sections for skills, projects, and contact.</li>
+                    <li>Added smooth navigation and scroll-based active states.</li>
+                    <li>Designed a polished dark UI around a consistent visual identity.</li>
+                </ul>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>AOS</span>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="#home" class="btn">Explore Portfolio <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/hertzy-da-poet/Hugo-Portfolio" class="btn btn-secondary" target="_blank">View Code <i class="fa-brands fa-github"></i></a>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="project-card">
+
+    <div class="project-image">
+        <img src="mycip.jpeg" alt="">
+    </div>
+
+    <div class="project-content">
+
+        <h3>MyCIP.ca</h3>
+
+        <p>
+            A full-stack platform that helps international students access
+            immigration resources through secure authentication, responsive
+            design, and a streamlined user experience.
+        </p>
+
+        <ul class="project-highlights">
+            <li>Built a secure authentication-centered student platform.</li>
+            <li>Created a responsive interface for immigration resource access.</li>
+            <li>Focused the experience around clear, guided student workflows.</li>
+        </ul>
+
+        <div class="project-tech">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Supabase</span>
+            <span>Tailwind CSS</span>
+            <span>HTML</span>
+            <span>JavaScript</span>
+        </div>
+
+        <div class="project-buttons">
+            <a href="https://mycip.ca" class="btn" target="_blank">Explore MyCIP <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+
+    </div>
+
+</div>
+        <div class="project-card">
+
+            <div class="project-image">
+                <img src="rolex-finder.png" alt="Rolex Finder app screenshot">
+            </div>
+
+            <div class="project-content">
+
+                <h3>Rolex Finder</h3>
+
+                <p>
+                    A watch recognition tool that lets users paste or upload a Rolex
+                    image and find the closest matching model. Built with a polished
+                    frontend, guided image search flow, and model-class prediction results.
+                </p>
+
+                <ul class="project-highlights">
+                    <li>Designed a guided paste/upload workflow for watch images.</li>
+                    <li>Connected the interface to model-class prediction results.</li>
+                    <li>Deployed the finished app for public browser access.</li>
+                </ul>
+
+                <div class="project-tech">
+                    <span>React</span>
+                    <span>JavaScript</span>
+                    <span>Vite</span>
+                    <span>AI Model</span>
+                    <span>Image Recognition</span>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="https://rolex-finder.vercel.app" class="btn" target="_blank">Explore Rolex Finder <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/hertzy-da-poet/rolex_models_recognition" class="btn btn-secondary" target="_blank">View Code <i class="fa-brands fa-github"></i></a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+                <!--Experience-->
+<!--Contact-->
+        <section class="contact" id="contact">
+
+    <h2 class="section-title">Let's get in <span>Touch</span></h2>
+                <div class="contact-description">
+
+    <p class="contact-quote">
+        "Great things are built when passionate people create together."
+    </p>
+
+    <p class="contact-subtext">
+        Have a project in mind, an opportunity to discuss, or looking to collaborate? 
+        Let's connect and build something meaningful.
+    </p>
+
+</div>
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            
+            <h2 class="contact-info-title">Contact Info</h2>
+            <div class="contact-details">
+
+    <div class="contact-card">
+        <i class="fa-solid fa-envelope"></i>
+
+        <div>
+            <h3>Email</h3>
+            <p>giabophannguyen@gmail.com</p>
+        </div>
+    </div>
+
+    <div class="contact-card">
+        <i class="fa-solid fa-phone"></i>
+
+        <div>
+            <h3>Phone</h3>
+            <p>+1 (647) 761 - 3808</p>
+        </div>
+    </div>
+
+    <div class="contact-card">
+        <i class="fa-solid fa-location-dot"></i>
+
+        <div>
+            <h3>Location</h3>
+            <p>Toronto, Ontario, Canada</p>
+        </div>
+    </div>
+
+</div>
+        </div>
+
+        <form class="contact-form"
+              action="https://formsubmit.co/giabophannguyen@gmail.com"
+              method="POST">
+
+            <input type="text"
+                   name="name"
+                   placeholder="Your Name"
+                   required>
+
+            <input type="email"
+                   name="email"
+                   placeholder="Your Email"
+                   required>
+
+            <textarea name="message"
+                      rows="8"
+                      placeholder="Your Message"
+                      required></textarea>
+
+            <button type="submit" class="btn">
+                Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+        </form>
+
+    </div>
+
+        </section>
+        <footer class="footer">
+            <p>&copy; 2026 Huy Phan &middot; Built with HTML, CSS, and JavaScript.</p>
+        </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({offset:0});
+    </script>
+    <script>
+    window.history.scrollRestoration = "manual";
+
+    window.onload = () => {
+      if (!window.location.hash) {
+        window.scrollTo(0, 0);
+      }
+    };
+  </script>
+</body>
+<script>
+
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll("nav a");
+
+window.addEventListener("scroll", () => {
+
+  let current = "";
+
+  sections.forEach(section => {
+
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+
+    if(window.scrollY >= sectionTop - 200){
+      current = section.getAttribute("id");
+    }
+
+  });
+
+  navLinks.forEach(link => {
+
+    link.classList.remove("active");
+
+    if(link.getAttribute("href") === `#${current}`){
+      link.classList.add("active");
+    }
+
+  });
+
+});
+
+</script>
+</html>
+
