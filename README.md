@@ -1,130 +1,60 @@
-<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️-->Portfolio Website
+# Hugo Phan's Portfolio
 
-A modern and responsive personal portfolio website built to showcase my projects, technical skills, and passion for software engineering and full-stack development. The website features smooth animations, interactive UI elements, responsive layouts, and a clean cinematic design focused on user experience.
+[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/hertzy-da-poet/Hugo-Portfolio)
 
-Preview
-Personal Portfolio
-Interactive landing page
-Animated typing effect
-Responsive navigation
-Skills visualization
-Featured project showcase
-Contact form integration
-Featured Project Included
-MyCIP.ca
-Full-stack immigration resource platform for international students
-Built With
-Frontend
-HTML5
-CSS3
-JavaScript
-Libraries & Tools
-AOS (Animate On Scroll)
-Font Awesome
-Google Fonts
-Features
-Responsive Design
+This repository contains the source code for my personal portfolio website. It is a fully responsive, single-page application designed to showcase my skills, projects, and professional background. The site is built with modern web technologies, focusing on a clean UI, smooth animations, and an interactive user experience.
 
-The website is fully responsive across:
+[**View Live Demo**](https://hertzy-da-poet.github.io/Hugo-Portfolio/)
 
-Desktop
-Tablet
-Mobile devices
-Interactive Navigation
-Smooth scrolling
-Active section highlighting
-Mobile hamburger menu
-Animated UI
-Scroll-based animations using AOS
-Typewriter text effect
-Hover animations
-Animated skill progress bars
-Skills Section
+## Features
 
-Dynamic technical skill bars displaying proficiency in:
+-   **Responsive Design**: The layout adapts seamlessly to various screen sizes, from mobile phones to desktop monitors.
+-   **Dynamic Typewriter Effect**: An engaging typewriter animation cycles through different job titles on the home page.
+-   **Animated Skills Section**: Visual skill bars dynamically animate to represent proficiency levels in different technologies.
+-   **Scroll Animations**: Subtle fade and zoom animations are implemented using the AOS (Animate on Scroll) library to enhance user engagement.
+-   **Project Showcase**: A dedicated section to display featured projects with descriptions, technology stacks, and links.
+-   **Functional Contact Form**: An integrated contact form that sends messages directly to my email using [Formsubmit.co](https://formsubmit.co/).
+-   **Mobile Navigation**: A collapsible hamburger menu provides easy navigation on smaller devices.
 
-Programming languages
-Frontend technologies
-Backend development
-Tools & concepts
-Project Showcase
+## Technologies Used
 
-Featured projects with:
+-   **Frontend**:
+    -   HTML5
+    -   CSS3
+    -   JavaScript (ES6)
+-   **Libraries**:
+    -   [Font Awesome](https://fontawesome.com/) for icons.
+    -   [Animate on Scroll (AOS)](https://michalsnik.github.io/aos/) for scroll animations.
+-   **Deployment**:
+    -   GitHub Pages
 
-Live project previews
-Technology stacks
-Project descriptions
-External website links
-Contact Section
+## File Structure
 
-Includes:
+```
+.
+├── .github/workflows/static.yml  # GitHub Actions workflow for deployment
+├── index.html                    # Main HTML file with all page content
+├── script.js                     # Handles typewriter effect and mobile navigation
+└── style.css                     # Contains all styling, animations, and media queries
+```
 
-Email
-Phone
-Location
-Contact form submission
-Folder Structure
-portfolio-website/
-│
-├── index.html
-├── style.css
-├── script.js
-├── main.jpeg
-├── mycip.jpeg
-└── README.md
-Installation
+## Setup and Usage
 
-Clone the repository:
+To run this project locally, follow these steps:
 
-git clone https://github.com/yourusername/portfolio-website.git
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/hertzy-da-poet/Hugo-Portfolio.git
+    ```
 
-Open the project folder:
+2.  **Navigate to the project directory:**
+    ```bash
+    cd Hugo-Portfolio
+    ```
 
-cd portfolio-website
+3.  **Open the website:**
+    Simply open the `index.html` file in your web browser to view the site.
 
-Run locally:
+## Deployment
 
-Open index.html
-Or use VS Code Live Server
-Key Functionalities
-Typewriter Animation
-
-A custom JavaScript typewriter effect cycles through multiple roles dynamically.
-
-Smooth Navigation Highlighting
-
-Navigation links automatically update based on the current section being viewed.
-
-Responsive Project Cards
-
-Project cards adapt to different screen sizes using CSS Grid and Flexbox layouts.
-
-Technical Highlights
-Responsive UI/UX design
-Modern CSS animations
-Dynamic JavaScript interactions
-Semantic HTML structure
-Mobile-first considerations
-Clean component organization
-Future Improvements
-
-Planned additions:
-
-Dark/light mode toggle
-Backend contact form integration
-Blog section
-Downloadable resume
-More featured projects
-React/Next.js migration
-Author
-Hugo Phan
-
-Computer Science student passionate about:
-
-Software Engineering
-Full-Stack Development
-AI Engineering
-Building impactful digital experiences
-Live Demo
-
-https://your-portfolio-link.com
+This website is automatically deployed to GitHub Pages whenever changes are pushed to the `main` branch. The deployment process is managed by the GitHub Actions workflow defined in `.github/workflows/static.yml`. This workflow checks out the repository, builds the pages artifact, and deploys it to the `gh-pages` environment.
