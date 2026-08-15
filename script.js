@@ -40,8 +40,8 @@ document.addEventListener("click", (event) => {
 const texts=[
     "Software Engineer",
     "Full Stack Developer",
-    "Vibe Coder",
-    "Co-Op Student"
+    "AI/ML Engineer",
+    "Game Enthusiast"
 ]
 
 const speed = 100;
