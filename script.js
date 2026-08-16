@@ -12,6 +12,7 @@
 //opening animation (all page right animation)
 
 const navbar = document.querySelector(".dropdown");
+const scrollTopButton = document.querySelector(".scroll-top");
 
 function toggleMenu(){
 
@@ -74,3 +75,14 @@ function eraseText(){
 }
 
 window.addEventListener("load", typeWriter);
+
+window.addEventListener("scroll", () => {
+    scrollTopButton.classList.toggle("show", window.scrollY > 500);
+});
+
+scrollTopButton.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
