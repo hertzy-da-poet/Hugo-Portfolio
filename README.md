@@ -16,32 +16,6 @@ A responsive personal portfolio website for showcasing my technical skills, feat
 - **Contact Form**: Includes a FormSubmit-powered contact form with hidden metadata and a honeypot field.
 - **Scroll-To-Top Button**: Adds quick navigation back to the hero section.
 
-## Featured Projects
-
-### Personal Portfolio Website
-
-Responsive personal website built with HTML, CSS, JavaScript, AOS, and Font Awesome.
-
-### MyCIP.ca
-
-Centralized immigration resource platform for students, built with React, TypeScript, Supabase, and Tailwind CSS to support secure access, responsive resource discovery, and faster navigation.
-
-### Rolex Finder
-
-AI watch recognition app with a React/Vite frontend, FastAPI/Python backend, Modal deployment, and Vercel hosting.
-
-### LinkedIn Job Description GenAI
-
-AI-powered job-description generator using Python, FastAPI, AI APIs, Supabase, HTML/CSS/JS, and Vercel to turn role details into polished LinkedIn-ready hiring copy.
-
-### SaiGon Sister Restaurant Website
-
-Production restaurant website delivered for a client, built with HTML, CSS, and JavaScript to present brand information, menu discovery, staff details, and mobile-friendly customer browsing.
-
-### Gachahub
-
-In-development social platform for gacha game communities using React, JavaScript, Vite, React Router, NestJS, TypeScript, Prisma, PostgreSQL, and Better Auth.
-
 ## Tech Stack
 
 ### Frontend
