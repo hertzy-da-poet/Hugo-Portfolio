@@ -1,60 +1,107 @@
 # Hugo Phan's Portfolio
 
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/hertzy-da-poet/Hugo-Portfolio)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/hertzy-da-poet/Hugo-Portfolio)
 
-This repository contains the source code for my personal portfolio website. It is a fully responsive, single-page application designed to showcase my skills, projects, and professional background. The site is built with modern web technologies, focusing on a clean UI, smooth animations, and an interactive user experience.
+A responsive personal portfolio website for showcasing my technical skills, featured projects, and contact information. The site uses a dark cinematic visual style, smooth scroll animations, compact project cards, and live project previews.
 
-[**View Live Demo**](https://hertzy-da-poet.github.io/Hugo-Portfolio/)
+[**View Live Portfolio**](https://hertzy-da-poet.github.io/Hugo-Portfolio/)
 
-## Features
+## Highlights
 
--   **Responsive Design**: The layout adapts seamlessly to various screen sizes, from mobile phones to desktop monitors.
--   **Dynamic Typewriter Effect**: An engaging typewriter animation cycles through different job titles on the home page.
--   **Animated Skills Section**: Visual skill bars dynamically animate to represent proficiency levels in different technologies.
--   **Scroll Animations**: Subtle fade and zoom animations are implemented using the AOS (Animate on Scroll) library to enhance user engagement.
--   **Project Showcase**: A dedicated section to display featured projects with descriptions, technology stacks, and links.
--   **Functional Contact Form**: An integrated contact form that sends messages directly to my email using [Formsubmit.co](https://formsubmit.co/).
--   **Mobile Navigation**: A collapsible hamburger menu provides easy navigation on smaller devices.
+- **Responsive Portfolio Layout**: Built for desktop, tablet, and mobile viewing.
+- **Animated Hero Section**: Includes a typewriter effect, social links, and a direct contact call-to-action.
+- **Technical Skills**: Organized into languages, frontend, backend/database, and tools/deployment.
+- **Project Showcase**: Features live previews, status labels, concise summaries, tech stacks, and project links.
+- **Status Labels**: Uses clear labels such as `Completed`, `Client Delivered`, `Live`, and `In Development`.
+- **Contact Form**: Includes a FormSubmit-powered contact form with hidden metadata and a honeypot field.
+- **Scroll-To-Top Button**: Adds quick navigation back to the hero section.
 
-## Technologies Used
+## Featured Projects
 
--   **Frontend**:
-    -   HTML5
-    -   CSS3
-    -   JavaScript (ES6)
--   **Libraries**:
-    -   [Font Awesome](https://fontawesome.com/) for icons.
-    -   [Animate on Scroll (AOS)](https://michalsnik.github.io/aos/) for scroll animations.
--   **Deployment**:
-    -   GitHub Pages
+### Personal Portfolio Website
+
+Responsive personal website built with HTML, CSS, JavaScript, AOS, and Font Awesome.
+
+### MyCIP.ca
+
+Centralized immigration resource platform for students, built with React, TypeScript, Supabase, and Tailwind CSS to support secure access, responsive resource discovery, and faster navigation.
+
+### Rolex Finder
+
+AI watch recognition app with a React/Vite frontend, FastAPI/Python backend, Modal deployment, and Vercel hosting.
+
+### LinkedIn Job Description GenAI
+
+AI-powered job-description generator using Python, FastAPI, AI APIs, Supabase, HTML/CSS/JS, and Vercel to turn role details into polished LinkedIn-ready hiring copy.
+
+### SaiGon Sister Restaurant Website
+
+Production restaurant website delivered for a client, built with HTML, CSS, and JavaScript to present brand information, menu discovery, staff details, and mobile-friendly customer browsing.
+
+### Gachahub
+
+In-development social platform for gacha game communities using React, JavaScript, Vite, React Router, NestJS, TypeScript, Prisma, PostgreSQL, and Better Auth.
+
+## Tech Stack
+
+### Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+- AOS
+- Font Awesome
+
+### Portfolio Features
+
+- Responsive navigation
+- Mobile hamburger menu
+- Typewriter animation
+- Scroll-based active navigation
+- Project status labels
+- Scroll-to-top button
+- Contact form integration
+
+### Deployment
+
+- GitHub Pages
+- Vercel project links
+- External live project previews
 
 ## File Structure
 
-```
+```text
 .
-├── .github/workflows/static.yml  # GitHub Actions workflow for deployment
-├── index.html                    # Main HTML file with all page content
-├── script.js                     # Handles typewriter effect and mobile navigation
-└── style.css                     # Contains all styling, animations, and media queries
+├── index.html
+├── style.css
+├── script.js
+├── main.jpeg
+├── mycip.jpeg
+├── portfolio-preview.png
+├── rolex-finder.png
+├── linkedin-genai-preview.png
+├── saigonsister-preview.png
+├── gachahub-preview.png
+├── LICENSE
+└── README.md
 ```
 
-## Setup and Usage
+## Run Locally
 
-To run this project locally, follow these steps:
+1. Clone the repository:
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/hertzy-da-poet/Hugo-Portfolio.git
-    ```
+```bash
+git clone https://github.com/hertzy-da-poet/Hugo-Portfolio.git
+```
 
-2.  **Navigate to the project directory:**
-    ```bash
-    cd Hugo-Portfolio
-    ```
+2. Open the project folder:
 
-3.  **Open the website:**
-    Simply open the `index.html` file in your web browser to view the site.
+```bash
+cd Hugo-Portfolio
+```
+
+3. Open `index.html` in a browser.
 
 ## Deployment
 
-This website is automatically deployed to GitHub Pages whenever changes are pushed to the `main` branch. The deployment process is managed by the GitHub Actions workflow defined in `.github/workflows/static.yml`. This workflow checks out the repository, builds the pages artifact, and deploys it to the `gh-pages` environment.
+The portfolio is designed as a static website and can be deployed through GitHub Pages or any static hosting provider. When connected to GitHub Pages, pushing updates to the configured deployment branch updates the live site automatically after the deployment finishes.

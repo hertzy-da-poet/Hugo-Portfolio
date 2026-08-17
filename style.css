@@ -40,6 +40,14 @@ header{
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  transition:0.3s ease;
+}
+
+header.scrolled{
+  margin-top:0;
+  background:rgba(0,0,0,0.38);
+  backdrop-filter:blur(10px);
+  box-shadow:0 0 16px rgba(0,0,0,0.18);
 }
 
 .logo{
@@ -369,6 +377,11 @@ font-size:clamp(2.5rem,0.5rem + 5vw,3rem);
     margin:15px 25%;
     display: flex;
     justify-content: center;
+  }
+
+  .project-buttons .btn,
+  .contact-form .btn{
+    margin:0;
   }
 }
 
@@ -897,4 +910,161 @@ font-size:clamp(2.5rem,0.5rem + 5vw,3rem);
   color:black;
   background:#b74b4b;
   box-shadow:0 0 25px #b74b4b;
+}
+
+@media(max-width:640px){
+  header{
+    margin-top:0;
+    padding:1rem 5%;
+  }
+
+  .logo{
+    font-size:2.4rem;
+  }
+
+  section{
+    padding:8rem 5% 5rem;
+  }
+
+  .home{
+    gap:3rem;
+    margin:3rem 0 0;
+  }
+
+  .home-img img{
+    width:min(70vw, 280px);
+    margin-top:2rem;
+  }
+
+  .home .home-content h1,
+  .home-content h1{
+    font-size:3.8rem;
+  }
+
+  .home .home-content h3{
+    font-size:2.4rem;
+  }
+
+  .home-content{
+    width:100%;
+    text-align:center;
+    align-items:center;
+  }
+
+  .home-content p{
+    width:86%;
+    max-width:29rem;
+    font-size:1.35rem;
+    line-height:1.7;
+    overflow-wrap:break-word;
+  }
+
+  .availability{
+    width:86%;
+    max-width:29rem;
+    align-items:flex-start;
+    text-align:left;
+    padding:1.1rem 1.2rem;
+  }
+
+  .availability div{
+    min-width:0;
+  }
+
+  .availability span,
+  .availability p{
+    overflow-wrap:anywhere;
+  }
+
+  .availability span{
+    font-size:1.35rem;
+  }
+
+  .availability p{
+    font-size:1.22rem;
+  }
+
+  .social-icons{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+
+  .btn{
+    width:100%;
+    max-width:280px;
+    margin:1.5rem auto;
+    letter-spacing:0.18rem;
+  }
+
+  .section-title{
+    font-size:3.6rem;
+    margin-bottom:3rem;
+  }
+
+  .skills-container{
+    grid-template-columns:1fr;
+    gap:2rem;
+  }
+
+  .skills-box{
+    padding:1.8rem;
+  }
+
+  .skill-tags{
+    gap:0.75rem;
+  }
+
+  .skill-tags span,
+  .project-tech span{
+    font-size:1.2rem;
+    padding:0.65rem 1rem;
+  }
+
+  .projects-container{
+    gap:2rem;
+  }
+
+  .project-image,
+  .project-image img{
+    height:205px;
+  }
+
+  .project-content{
+    padding:1.8rem;
+  }
+
+  .project-content h3{
+    font-size:2rem;
+  }
+
+  .project-content p{
+    font-size:1.28rem;
+  }
+
+  .project-buttons{
+    gap:0.8rem;
+  }
+
+  .project-buttons .btn,
+  .contact-form .btn{
+    width:100%;
+    max-width:none;
+    margin:0;
+  }
+
+  .contact-card{
+    align-items:flex-start;
+  }
+
+  .contact-form{
+    min-width:0;
+  }
+
+  .scroll-top{
+    right:1.5rem;
+    bottom:1.5rem;
+    width:4.3rem;
+    height:4.3rem;
+  }
 }

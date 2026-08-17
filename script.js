@@ -13,6 +13,7 @@
 
 const navbar = document.querySelector(".dropdown");
 const scrollTopButton = document.querySelector(".scroll-top");
+const header = document.querySelector("header");
 
 function toggleMenu(){
 
@@ -78,6 +79,7 @@ window.addEventListener("load", typeWriter);
 
 window.addEventListener("scroll", () => {
     scrollTopButton.classList.toggle("show", window.scrollY > 500);
+    header.classList.toggle("scrolled", window.scrollY > 80);
 });
 
 scrollTopButton.addEventListener("click", () => {
