@@ -59,21 +59,21 @@ A responsive personal portfolio website for showcasing my technical skills, feat
 
 ### DeAnza_ChatBot
 
-De Anza College assistant using FastAPI, Python, OpenAI API, PostgreSQL, Pydantic, BeautifulSoup, HTML, CSS, JavaScript, and Pytest for retrieval-backed student support.
+Retrieval-backed De Anza assistant using FastAPI, OpenAI API, PostgreSQL, BeautifulSoup, HTML/CSS/JS, and Pytest.
 
 ### MyCIP.ca
 
-Centralized immigration resource platform for students, built with React, TypeScript, Supabase, and Tailwind CSS to support secure access, responsive resource discovery, and faster navigation.
+Student immigration platform built with React, TypeScript, Supabase, and Tailwind CSS for secure access and faster resource discovery.
 
 ### LinkedIn Job Description GenAI
 
-AI-powered job-description generator using Python, FastAPI, AI APIs, Supabase, HTML/CSS/JS, and Vercel to turn role details into polished LinkedIn-ready hiring copy.
+AI job-description generator using Python, FastAPI, AI APIs, HTML/CSS/JS, and Vercel to create LinkedIn-ready hiring copy.
 
 ## Experience
 
 ### SaigonSister Restaurant Website
 
-Production restaurant website delivered for a client, built with HTML, CSS, and JavaScript to present brand information, menu discovery, staff details, and mobile-friendly customer browsing.
+Client-delivered restaurant website built with HTML, CSS, and JavaScript for brand presence, menu discovery, and mobile-friendly browsing.
 
 ## File Structure
 
