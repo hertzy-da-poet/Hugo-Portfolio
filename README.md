@@ -12,6 +12,7 @@ A responsive personal portfolio website for showcasing my technical skills, feat
 - **Animated Hero Section**: Includes a typewriter effect, social links, and a direct contact call-to-action.
 - **Technical Skills**: Organized into languages, frontend, backend/database, and tools/deployment.
 - **Project Showcase**: Features live previews, status labels, concise summaries, tech stacks, and project links.
+- **Experience Section**: Separates delivered client work from personal and technical projects.
 - **Status Labels**: Uses clear labels such as `Completed`, `Client Delivered`, `Live`, and `In Development`.
 - **Contact Form**: Includes a FormSubmit-powered contact form with hidden metadata and a honeypot field.
 - **Scroll-To-Top Button**: Adds quick navigation back to the hero section.
@@ -25,6 +26,18 @@ A responsive personal portfolio website for showcasing my technical skills, feat
 - JavaScript
 - AOS
 - Font Awesome
+- Responsive Design
+
+### Backend & Data
+
+- FastAPI
+- Pydantic
+- Supabase
+- PostgreSQL
+- REST APIs
+- Web scraping
+- BeautifulSoup
+- Pytest
 
 ### Portfolio Features
 
@@ -42,6 +55,26 @@ A responsive personal portfolio website for showcasing my technical skills, feat
 - Vercel project links
 - External live project previews
 
+## Featured Projects
+
+### DeAnza_ChatBot
+
+De Anza College assistant using FastAPI, Python, OpenAI API, PostgreSQL, Pydantic, BeautifulSoup, HTML, CSS, JavaScript, and Pytest for retrieval-backed student support.
+
+### MyCIP.ca
+
+Centralized immigration resource platform for students, built with React, TypeScript, Supabase, and Tailwind CSS to support secure access, responsive resource discovery, and faster navigation.
+
+### LinkedIn Job Description GenAI
+
+AI-powered job-description generator using Python, FastAPI, AI APIs, Supabase, HTML/CSS/JS, and Vercel to turn role details into polished LinkedIn-ready hiring copy.
+
+## Experience
+
+### SaigonSister Restaurant Website
+
+Production restaurant website delivered for a client, built with HTML, CSS, and JavaScript to present brand information, menu discovery, staff details, and mobile-friendly customer browsing.
+
 ## File Structure
 
 ```text
@@ -54,6 +87,7 @@ A responsive personal portfolio website for showcasing my technical skills, feat
 ├── portfolio-preview.png
 ├── rolex-finder.png
 ├── linkedin-genai-preview.png
+├── deanza-chatbot-preview.png
 ├── saigonsister-preview.png
 ├── gachahub-preview.png
 ├── LICENSE

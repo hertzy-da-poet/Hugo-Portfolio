@@ -27,7 +27,8 @@
                 <a href="#home" class="active" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" >Home</a>
                 <a href="#skills" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">Skills</a>
                 <a href="#projects" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Projects</a>
-                <a href="#contact" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">Contact</a>
+                <a href="#experience" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">Experience</a>
+                <a href="#contact" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">Contact</a>
                 </div>
             </div>
             <i class="fa-solid fa-bars hamburg" onclick="toggleMenu()"></i>
@@ -36,6 +37,7 @@
                     <a href="#home" onclick="closeMenu()">Home</a>
                     <a href="#skills" onclick="closeMenu()">Skills</a>
                     <a href="#projects" onclick="closeMenu()">Projects</a>
+                    <a href="#experience" onclick="closeMenu()">Experience</a>
                     <a href="#contact" onclick="closeMenu()">Contact</a>
                 </div>
             </div>
@@ -111,6 +113,7 @@
                 <span>Node.js</span>
                 <span>FastAPI</span>
                 <span>NestJS</span>
+                <span>Pydantic</span>
                 <span>Supabase</span>
                 <span>Prisma</span>
                 <span>PostgreSQL</span>
@@ -135,6 +138,9 @@
                 <span>OpenAI API</span>
                 <span>Google GenAI</span>
                 <span>Hugging Face</span>
+                <span>BeautifulSoup</span>
+                <span>Pytest</span>
+                <span>Web Scraping</span>
                 <span>OOP</span>
                 <span>Full-Stack Development</span>
                 <span>AI Integration</span>
@@ -323,39 +329,44 @@
         <div class="project-card">
 
             <div class="project-image">
-                <img src="saigonsister-preview.png" alt="SaiGon Sister restaurant website preview">
+                <img src="deanza-chatbot-preview.png" alt="DeAnza ChatBot project preview">
             </div>
 
             <div class="project-content">
 
                 <div class="project-status-row">
                     <span class="project-status completed">Completed</span>
-                    <span class="project-status delivered">Client Delivered</span>
                     <span class="project-status live">Live</span>
                 </div>
 
-                <h3>SaiGon Sister Restaurant Website</h3>
+                <h3>DeAnza_ChatBot</h3>
 
                 <p>
-                    A production restaurant website delivered for a client, converting business goals into
-                    customer-facing pages for brand presence, menu discovery, staff details, and contact information.
+                    A De Anza College assistant that answers student questions using official catalog, schedule,
+                    policy, and campus information through a retrieval-backed chat experience.
                 </p>
 
                 <ul class="project-highlights">
-                    <li>Delivered a live client website with polished public-facing content and navigation.</li>
-                    <li>Built mobile-responsive HTML, CSS, and JavaScript flows for quick customer browsing.</li>
+                    <li>Built a FastAPI streaming chat endpoint with rate limiting, feedback capture, and database checks.</li>
+                    <li>Developed scrapers, retrieval logic, embeddings, and tests to ground answers in official sources.</li>
                 </ul>
 
                 <div class="project-tech">
+                    <span>Python</span>
+                    <span>FastAPI</span>
+                    <span>OpenAI API</span>
+                    <span>PostgreSQL</span>
+                    <span>Pydantic</span>
+                    <span>BeautifulSoup</span>
                     <span>HTML</span>
                     <span>CSS</span>
                     <span>JavaScript</span>
-                    <span>Responsive Design</span>
-                    <span>Web Delivery</span>
+                    <span>Pytest</span>
                 </div>
 
                 <div class="project-buttons">
-                    <a href="https://saigonsister.ca" class="btn" target="_blank" rel="noopener noreferrer">Live Preview <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://de-anza-chatbot.vercel.app" class="btn" target="_blank" rel="noopener noreferrer">Live Preview <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/AlexDaPiggie/DeAnza_Chatbot" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">View Code <i class="fa-brands fa-github"></i></a>
                 </div>
 
             </div>
@@ -408,6 +419,57 @@
 
 </section>
                 <!--Experience-->
+                <section class="projects" id="experience">
+
+    <h2 class="section-title"><span>Experience</span></h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+
+            <div class="project-image">
+                <img src="saigonsister-preview.png" alt="SaigonSister restaurant website preview">
+            </div>
+
+            <div class="project-content">
+
+                <div class="project-status-row">
+                    <span class="project-status completed">Completed</span>
+                    <span class="project-status delivered">Client Delivered</span>
+                    <span class="project-status live">Live</span>
+                </div>
+
+                <h3>SaigonSister Restaurant Website</h3>
+
+                <p>
+                    A production restaurant website delivered for a client, converting business goals into
+                    customer-facing pages for brand presence, menu discovery, staff details, and contact information.
+                </p>
+
+                <ul class="project-highlights">
+                    <li>Delivered a live client website with polished public-facing content and navigation.</li>
+                    <li>Built mobile-responsive HTML, CSS, and JavaScript flows for quick customer browsing.</li>
+                </ul>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Responsive Design</span>
+                    <span>Web Delivery</span>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="https://saigonsister.ca" class="btn" target="_blank" rel="noopener noreferrer">Live Preview <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 <!--Contact-->
         <section class="contact" id="contact">
 
@@ -549,4 +611,3 @@ window.addEventListener("scroll", () => {
 
 </script>
 </html>
-
