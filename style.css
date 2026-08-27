@@ -487,6 +487,7 @@ font-size:clamp(2.5rem,0.5rem + 5vw,3rem);
   margin:0 auto;
 
   text-align:center;
+  color:var(--warm-text);
 }
 
 .contact-info-title::after{
@@ -610,7 +611,7 @@ font-size:clamp(2.5rem,0.5rem + 5vw,3rem);
 
   background:rgba(183,75,75,0.15);
 
-  color:#b74b4b;
+  color:var(--accent-bright);
 
   font-size:2.2rem;
 }
@@ -620,11 +621,12 @@ font-size:clamp(2.5rem,0.5rem + 5vw,3rem);
   font-size:1.8rem;
   margin-bottom:0.2rem;
   letter-spacing:0;
+  color:var(--warm-text);
 }
 
 .contact-card p{
   font-size:1.4rem;
-  color:#d6d6d6;
+  color:#d8caca;
 }
 
 .contact-form{
