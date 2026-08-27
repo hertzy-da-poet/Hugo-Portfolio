@@ -42,7 +42,7 @@ document.addEventListener("click", (event) => {
 const texts=[
     "Software Engineer",
     "Full Stack Developer",
-    "AI/ML Engineer",
+    "ML/AI Engineer",
     "Game Enthusiast"
 ]
 
