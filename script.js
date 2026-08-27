@@ -88,3 +88,30 @@ scrollTopButton.addEventListener("click", () => {
         behavior: "smooth"
     });
 });
+
+const revealElements = document.querySelectorAll(
+    ".section-title, .skills-box, .project-card, .contact-description, .contact-info-title, .contact-card, .contact-form, .footer"
+);
+
+if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    revealElements.forEach((element, index) => {
+        element.classList.add("reveal-on-scroll");
+        element.style.setProperty("--reveal-delay", `${Math.min(index % 6, 5) * 80}ms`);
+    });
+
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("revealed");
+                revealObserver.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.16,
+        rootMargin: "0px 0px -70px 0px"
+    });
+
+    revealElements.forEach((element) => revealObserver.observe(element));
+} else {
+    revealElements.forEach((element) => element.classList.add("revealed"));
+}
