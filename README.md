@@ -59,7 +59,7 @@ A responsive personal portfolio website for showcasing my technical skills, feat
 
 ### DeAnza_ChatBot
 
-Retrieval-backed De Anza assistant using FastAPI, OpenAI API, PostgreSQL, BeautifulSoup, HTML/CSS/JS, and Pytest.
+RAG-style De Anza assistant using FastAPI, OpenAI API, PostgreSQL, BeautifulSoup, HTML/CSS/JS, and Pytest for grounded student support.
 
 ### MyCIP.ca
 
@@ -68,6 +68,18 @@ Student immigration platform built with React, TypeScript, Supabase, and Tailwin
 ### LinkedIn Job Description GenAI
 
 AI job-description generator using Python, FastAPI, AI APIs, HTML/CSS/JS, and Vercel to create LinkedIn-ready hiring copy.
+
+### Rolex Finder
+
+Image-recognition web app using React, Vite, FastAPI, Python, Modal, and Vercel to identify Rolex models from uploaded photos.
+
+### Personal Portfolio Website
+
+Responsive portfolio built with HTML, CSS, JavaScript, AOS, and Font Awesome to showcase projects, resume, and contact paths.
+
+### Gachahub
+
+In-development social platform using React, Vite, NestJS, TypeScript, Prisma, PostgreSQL, and Better Auth.
 
 ## Experience
 
