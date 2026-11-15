@@ -3,20 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Thanks for reaching out</title>
+  <title>Message sent | Hugo Portfolio</title>
+  <link rel="stylesheet" href="style.css">
   <style>
-    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f5f7fa; color: #182435; font: 1rem/1.6 system-ui, sans-serif; }
-    main { box-sizing: border-box; width: min(90%, 35rem); padding: 2rem; background: white; border-radius: 1rem; }
-    h1 { margin-top: 0; line-height: 1.2; }
-    a { color: #174eac; }
+    .thanks-page { min-height: 100svh; height: auto; display: grid; place-items: center; padding: 2.4rem; }
+    .thanks-card { width: min(100%, 56rem); padding: clamp(2.8rem, 7vw, 5.6rem); text-align: center; background: #160909; border: 1px solid var(--panel-border); border-radius: 2.4rem; box-shadow: 0 24px 72px #0008; }
+    .thanks-icon { display: grid; place-items: center; width: 6rem; height: 6rem; margin: 0 auto 2.4rem; border: 1px solid var(--accent); border-radius: 2rem; background: var(--accent-soft); color: var(--accent-pale); font-size: 2.8rem; }
+    .thanks-card .section-title { margin: 0 auto 3rem; font-size: clamp(3.6rem, 8vw, 5.2rem); line-height: 1.05; }
+    .thanks-copy { color: var(--warm-text); line-height: 1.6; }
+    .thanks-countdown { margin-top: 2.2rem; color: var(--accent-pale); font: 500 1.3rem/1.6 var(--mono-font); }
+    .thanks-card .btn { margin-top: 2.4rem; color: var(--accent-pale); }
+    .thanks-card .btn:hover, .thanks-card .btn:focus-visible { background: var(--accent-pale); color: #160909; }
+    .thanks-card .btn:focus-visible { outline: 2px solid white; outline-offset: 4px; }
   </style>
 </head>
-<body>
-  <main>
-    <h1>Thanks for reaching out!</h1>
-    <p>Your message was submitted successfully.</p>
-    <p id="redirect" hidden>Returning to my portfolio in <span id="seconds">3</span>…</p>
-    <a id="portfolio" href="https://hertzy-da-poet.github.io/Hugo-Portfolio/">Back to portfolio now</a>
+<body class="thanks-page">
+  <main class="thanks-card">
+    <div class="thanks-icon" aria-hidden="true">✓</div>
+    <h1 class="section-title">Message sent!</h1>
+    <p class="thanks-copy">Thank you for reaching out. I look forward to connecting with you.</p>
+    <p class="thanks-countdown" id="redirect" hidden>Returning to my portfolio in <span id="seconds">3</span>…</p>
+    <a class="btn" id="portfolio" href="./">Back to portfolio <span aria-hidden="true">→</span></a>
   </main>
   <script>
     const countdown = document.getElementById('seconds');
