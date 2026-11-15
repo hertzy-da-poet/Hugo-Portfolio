@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thanks for reaching out</title>
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f5f7fa; color: #182435; font: 1rem/1.6 system-ui, sans-serif; }
+    main { box-sizing: border-box; width: min(90%, 35rem); padding: 2rem; background: white; border-radius: 1rem; }
+    h1 { margin-top: 0; line-height: 1.2; }
+    a { color: #174eac; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Thanks for reaching out!</h1>
+    <p>Your message was submitted successfully.</p>
+    <p id="redirect" hidden>Returning to my portfolio in <span id="seconds">3</span>…</p>
+    <a id="portfolio" href="https://hertzy-da-poet.github.io/Hugo-Portfolio/">Back to portfolio now</a>
+  </main>
+  <script>
+    const countdown = document.getElementById('seconds');
+    const destination = document.getElementById('portfolio').href;
+    document.getElementById('redirect').hidden = false;
+    let seconds = 3;
+    const timer = setInterval(() => {
+      seconds -= 1;
+      if (seconds === 0) {
+        clearInterval(timer);
+        window.location.replace(destination);
+        return;
+      }
+      countdown.textContent = seconds;
+    }, 1000);
+  </script>
+</body>
+</html>
